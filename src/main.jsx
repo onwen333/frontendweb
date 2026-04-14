@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { store } from "./store/store.js";
 import "./index.css";
-import { RouterProvider } from "react-router";
+import { RouterProvider } from "react-router-dom";
 import router from "./routes/path";
 import { Import } from "lucide-react";
 import { QueryClient, QueryClientProvider } from "react-query";

@@ -47,6 +47,7 @@ const Header = () => {
         <div className="hidden md:flex items-center gap-10">
           <NavLink>Community</NavLink>
           <NavLink linkChildren={"/content"}>Content</NavLink>
+          <NavLink linkChildren={"/about"}>About Us</NavLink>
           <NavLink>Forum</NavLink>
           <NavLink>Resources</NavLink>
         </div>
@@ -162,6 +163,7 @@ const Header = () => {
         <div className="md:hidden bg-[#050b18] border-b border-white/5 px-6 py-4 flex flex-col gap-4 animate-in slide-in-from-top duration-300">
           <NavLink>Community</NavLink>
           <NavLink linkChildren={"/content"}>Content</NavLink>
+          <NavLink linkChildren={"/about"}>About Us</NavLink>
           <NavLink>Forum</NavLink>
           <NavLink>Resources</NavLink>
 

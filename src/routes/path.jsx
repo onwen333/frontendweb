@@ -1,6 +1,7 @@
-import { createBrowserRouter, Navigate, Outlet } from "react-router";
+import { createBrowserRouter, Navigate, Outlet } from "react-router-dom";
 import Login from "@page/auth/Login";
 import Home from "@/page/home/Home";
+import AboutUs from "@/page/home/AboutUs";
 import PageLayout from "@/layout/PageLayout";
 import ContentPage from "@/page/home/ContentPage";
 import Register from "@/page/auth/Register";
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Navigate to="/home" replace />,
+  },
+  {
+    path: "/about",
+    element: <AboutUs />,
   },
   {
     path: "/403",
